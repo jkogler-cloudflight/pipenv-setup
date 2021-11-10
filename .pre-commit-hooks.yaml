@@ -1,0 +1,9 @@
+- id: pipenv-setup
+  name: pipenv-setup
+  description: "Sync pipenv requirements with setup.py"
+  entry: pipenv-setup
+  language: python
+  language_version: python3
+  require_serial: true
+  files: 'Pipfile'
+  pass_filenames: false
