@@ -156,6 +156,7 @@ setup(
         "six~=1.12",
         "typing~=3.7; python_version < '3.7'",
         "chardet>=3.0.0,<=5.0.0",
+        "pyparsing>=2.4.7,<3.0.0"
     ],  # Optional
     entry_points={
         "console_scripts": ["pipenv-setup=pipenv_setup.main:cmd"]
